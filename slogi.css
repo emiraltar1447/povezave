@@ -1,0 +1,38 @@
+.Insta:link {
+	background-color: gray;
+	text-decoration: none;
+}
+.Insta:visited {
+	background-color: yellow;
+	text-decoration: none;
+}
+.Insta:hover {
+	background-color: green;
+	text-decoration: underline;
+}
+.Insta:active {
+	background-color: blue;
+	text-decoration: underline;
+}
+#Logo {
+	width: auto;
+	height: 100px;
+	transition: all .5s ease; 
+}
+#Logo:hover {
+	opacity: 0.5;
+	height: 150px;
+	transition: all 2s ease;
+}
+.Tabelica {
+	border-collapse: collapse;
+	border: 3px double red;
+	margin:0 auto;
+}
+.Tabelica td,.Tabelica th {
+	border: 1px solid green;
+	padding: 3px 8px;
+}
+.Tabelica tr:hover {
+	background-color: pink;
+}
